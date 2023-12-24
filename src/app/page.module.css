@@ -1,0 +1,10 @@
+.main {
+    background-color: var(--background-color);
+    color: var(--tertiary-color);
+    height: 100vh;
+}
+
+.h1 {
+    font-size: 96px;
+    padding-bottom: 0;
+}

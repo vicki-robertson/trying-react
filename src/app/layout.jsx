@@ -1,5 +1,10 @@
+// import 'bootstrap/dist/css/bootstrap.css';
 import './globals.css'
 import { Lato, Montserrat } from 'next/font/google'
+
+// components
+import Header from './components/Header/Header';
+
     
 const lato = Lato({ 
   weight: '700',
@@ -18,17 +23,15 @@ const montserrat = Montserrat({
 
 export const metadata = {
   title: 'Doctor Who',
-  description: 'Conoce más sobre el mundo de Doctor Who',
+  description: 'El mundo de Doctor Who',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className={`${lato.variable} ${montserrat.variable}`}>
-      <body>
-        <header></header>
-        <h1>My App</h1>
+    <html lang="es">
+      <body className={`${lato.variable} ${montserrat.variable}`}>
+        <Header/>
         {children}
-        <footer></footer>
       </body>
     </html>
   )

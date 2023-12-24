@@ -1,6 +1,8 @@
-export default function Doctor() {
+import styles from './page.module.css'
+
+export default function Doctors() {
   return (
-    <main>
+    <main className={styles.doctors}>
         <div>hello</div>
     </main>
   )
