@@ -1,20 +1,20 @@
 import styles from "./Header.module.css"
+
+// components
 import Links from "./Links";
-import Image from "next/image";
+import SocialMedia from "../SocialMedia/SocialMedia";
+import Logo from "./Logo";
+import SearchBar from "./SearchBar";
 
 export default function Header() {
   return (
-    <>
       <header className={styles.header}>
-        <Links/>
-        <Image
-          src="/logos/logo.png"
-          alt='Doctor Who logo'
-          height={190}
-          width={185}
-        />
-        <h2>hello</h2>
+        <div className={styles.headerContainer}>
+          <div className={styles.links}><Links /></div>
+          <div className={styles.logo}><Logo /></div>
+          <div className={styles.searchBar}><SearchBar /></div>
+          <div className={styles.socialContainer}><SocialMedia /></div>
+        </div>
       </header>
-    </> 
   );
 }

@@ -1,0 +1,9 @@
+.socialContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.socialLinks {
+    background-color: pink;
+    padding: 0 1rem;
+}

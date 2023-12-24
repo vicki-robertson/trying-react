@@ -1,8 +1,36 @@
-.header {
-    background-color: var(--background-color);
+/* .header {
+    
+} */
+
+.headerContainer {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 2fr;
+    margin: 0 auto;
+    
     color: var(--tertiary-color);
+    margin: 0 auto;
 }
 
-.h2 {
-    padding-bottom: 0;
+.links {
+    padding-top: 3.5rem;
+    padding-left: 4rem;
 }
+
+.logo {
+    align-self: center;
+}
+
+.searchBar {
+    padding-top: 3.5rem;
+}
+
+.socialContainer {
+    padding-top: 3.5rem;
+    padding-right: 4rem;
+}
+
+
+
+
+

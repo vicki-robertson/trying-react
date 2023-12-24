@@ -6,13 +6,15 @@ import styles from './page.module.css'
 
 
 export default function Home() {
+  const title = 'The Giggle';
+
   return (
     <main className={styles.main}>
-      <h2 className={styles.h2}>The Giggle</h2>
+      <h1 className={styles.h2}>{ title }</h1>
       <Button text='Ver Ahora'></Button>
-      <h1 className="text-3xl font-bold">
+      <h3>
         Hello there!
-      </h1>   
+      </h3>   
     </main>
   )
 }
