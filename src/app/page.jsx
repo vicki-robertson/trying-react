@@ -11,7 +11,7 @@ export default function Home() {
       <h2 className={styles.h2}>The Giggle</h2>
       <Button text='Ver Ahora'></Button>
       <h1 className="text-3xl font-bold">
-        Hello world!
+        Hello there!
       </h1>   
     </main>
   )
