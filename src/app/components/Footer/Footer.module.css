@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     background-color: var(--background-color);
     padding: 2rem 8rem;
+    border-top: 3px solid #fff;
 }
 
 .smallLogo {

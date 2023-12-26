@@ -6,7 +6,7 @@
     font-style: normal;
     font-weight: 700;
     background-color: var(--secondary-color);
-    /* margin-top: 6rem; */
     padding: 1rem 3.5rem;
     border-radius: 40px;
+    max-height: 7rem;
 }

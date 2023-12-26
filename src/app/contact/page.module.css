@@ -1,4 +1,30 @@
+.contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
 .main {
-    background-color: cadetblue;
+    display: grid;
+    background-color: var(--background-color);
     height: 100vh;
+}
+
+.contactContainer .main {
+    display: grid;
+    justify-content: left;
+}
+
+.contactContainer .formContainer {
+    display: grid;
+    justify-content: right;
+    text-align: center;
+}
+
+.symbols {
+
+}
+
+.formContainer {
+
 }
