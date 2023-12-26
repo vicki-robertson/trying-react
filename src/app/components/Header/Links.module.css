@@ -1,6 +1,5 @@
-.links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.links a {
+    padding: 0 3rem 0 0;
     }
 
 

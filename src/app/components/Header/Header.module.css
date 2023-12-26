@@ -1,33 +1,30 @@
-/* .header {
-    
-} */
-
 .headerContainer {
     width: 100vw;
     display: grid;
-    grid-template-columns: 5fr 2fr 2fr 2fr;
+    grid-template-columns: 4fr 1fr 2fr 2fr;
     margin: 0 auto;
-    
     color: var(--tertiary-color);
     margin: 0 auto;
+    padding: 0 8rem;
 }
 
 .links {
-    padding-top: 3.5rem;
-    padding-left: 4rem;
+    padding-top: 4rem;
 }
 
 .logo {
-    align-self: center;
+   padding-top: 0.5rem;
 }
 
 .searchBar {
-    padding-top: 3.5rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
 }
 
 .socialContainer {
-    padding-top: 3.5rem;
-    padding-right: 4rem;
+    display: grid;
+    padding-top: 4rem;
+    justify-content: right;
 }
 
 
