@@ -1,5 +1,18 @@
 .footer {
-    background-color: orangered;
-    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--background-color);
+    padding: 2rem 8rem;
 }
 
+.smallLogo {
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+
+.socialFooter {
+    display: grid;
+    align-items: center;
+    justify-content: right;
+}
