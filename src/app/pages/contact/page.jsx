@@ -1,7 +1,7 @@
 import styles from './page.module.css'
-import Button from '../components/Button/Button'
+import Button from '../../components/Button/Button'
 import Image from 'next/image'
-import SymbolsContact from '../components/Symbols/SymbolsContact/SymbolsContact'
+import SymbolsContact from '../../components/Symbols/SymbolsContact/SymbolsContact'
 
 export default function Contact() {
   return (

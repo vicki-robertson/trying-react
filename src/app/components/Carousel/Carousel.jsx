@@ -1,30 +1,35 @@
-import {Carousel} from 'react-responsive-carousel';
+import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import styles from './Carousel.module.css'
+import styles from './Carousel.module.css';
+import Image from 'next/image';
+import Button from '../Button/Button';
 
-var React = require('react');
-var ReactDOM = require('react-dom');
-var Carousel = require('react-responsive-carousel').Carousel;
+const CarouselComponent = () => {
+  return (
+    <Carousel showArrows={true}>
+      <div>
+        <h1 className={styles.legend}>The Giggle</h1>
+        <Button>Ver Ahora</Button>
+        <Image 
+            src="/carousel/carousel-1.jpeg"
+            alt="Carousel 1"
+            height={833}
+            width={1726}
+        />
+        
+        
+      </div>
+      <div>
+        <Image
+            src="/carousel/carousel-2.jpeg"
+            alt="Carousel 2"
+            height={833}
+            width={1726}
+        />
+        <p className={styles.legend}>Alons-y</p>
+      </div>
+    </Carousel>
+  );
+};
 
-var DemoCarousel = React.createClass({
-    render() {
-        return (
-            <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
-                <div>
-                    <img src="carousel/carousel-1.webp" />
-                    <p className="legend">The Giggle</p>
-                </div>
-                <div>
-                    <img src="carousel-2.jpeg" />
-                    <p className="legend">Alons-y</p>
-                </div>
-            </Carousel>
-        );
-    }
-});
-ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel'));
-
-export Carousel
-// Don't forget to include the css in your page 
-// <link rel="stylesheet" href="carousel.css"/>
-// Begin DemoSliderControls
+export default CarouselComponent;
