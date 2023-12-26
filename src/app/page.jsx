@@ -3,7 +3,7 @@
 
 import Button from './components/Button/Button'
 import styles from './page.module.css'
-
+import CarouselComponent from './components/Carousel/Carousel';
 
 
 export default function Home() {
@@ -11,12 +11,13 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h1 className={styles.h2}>{ title }</h1>
-      <Button text='Ver Ahora'></Button>
-      <h3>
-        Hello there!
-      </h3>
-      
+      <div className={styles.textBox}>
+        <h1 className={styles.h2}>{ title }</h1>
+        <Button text='Ver Ahora'></Button>
+      </div>
+      <div className={styles.carouselContainer}>
+        <CarouselComponent />
+      </div>
     </main>
   )
 }

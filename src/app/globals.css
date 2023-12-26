@@ -12,14 +12,15 @@
   --border-radius: 12px;
 }
 
-
-
-
-
 main, body {
   background-color: var(--background-color);
   color: var(--tertiary-color);
   height: 100vh;
+}
+
+body {
+  width: 1728px;
+  height: 1117px;
 }
 
 h1 {
