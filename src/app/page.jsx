@@ -5,6 +5,7 @@ import Button from './components/Button/Button'
 import styles from './page.module.css'
 
 
+
 export default function Home() {
   const title = 'The Giggle';
 
@@ -14,7 +15,8 @@ export default function Home() {
       <Button text='Ver Ahora'></Button>
       <h3>
         Hello there!
-      </h3>   
+      </h3>
+      
     </main>
   )
 }
