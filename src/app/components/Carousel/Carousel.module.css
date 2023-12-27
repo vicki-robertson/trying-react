@@ -1,0 +1,48 @@
+
+
+.carouselContainer {
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    position: relative;
+    /*  */
+    /* display: grid; */
+    transition: transform 0.5s ease;
+  }
+  
+  .carouselBox {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+ 
+
+  .slide {
+    position: relative;
+    /* max-height: 900px;  */
+    /* height: 100%; */
+    transition: opacity 1s ease;
+  }
+  
+  .overlayContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 8rem;
+    padding-top: 18rem;
+    color: white;
+  }
+
+  .legend {
+    padding-bottom: 5rem;
+  }
+
+
+.buttonCarousel {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  

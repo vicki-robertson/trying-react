@@ -4,6 +4,7 @@
     background-color: var(--background-color);
     padding: 2rem 8rem;
     border-top: 3px solid #fff;
+    z-index: 1;
 }
 
 .smallLogo {

@@ -1,0 +1,39 @@
+
+.title {
+    padding: 2rem 0 4rem 8rem;
+
+}
+.doctorsCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 815px;
+    grid-gap: 7rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 8rem;
+}
+
+
+.imageBox {
+
+}
+
+.textBox {
+    padding-top: 3.5rem;
+}
+
+.doctorName {
+    padding-bottom: 3.5rem;
+}
+
+.actorName {
+    padding-bottom: 2rem;
+}
+
+.info {
+    padding-bottom: 3rem;
+}
+
+.buttonDoctors {
+    
+}

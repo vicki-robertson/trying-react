@@ -1,3 +1,10 @@
-/* .searchContainer {
-    padding-left: 3rem;
-} */
+.searchBox {
+    font-family: var(--font-montserrat);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 2rem;
+}
+
+.searchContainer {
+    display: flex;
+}
