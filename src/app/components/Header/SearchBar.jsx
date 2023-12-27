@@ -10,6 +10,7 @@ export default function SearchBar() {
           height={24}
           alt="Search icon"
         />
+        <p className={styles.searchBox}>Search</p>
     </div>
   )
 }

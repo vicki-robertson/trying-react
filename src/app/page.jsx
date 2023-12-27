@@ -11,13 +11,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.textBox}>
-        <h1 className={styles.h2}>{ title }</h1>
-        <Button text='Ver Ahora'></Button>
-      </div>
-      <div className={styles.carouselContainer}>
         <CarouselComponent />
-      </div>
     </main>
   )
 }

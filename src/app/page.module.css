@@ -1,17 +1,7 @@
 .main {
-   
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
 
-}
 
-.main > h1 {
-    font-size: 96px;
-    padding-bottom: 10rem;
-}
-
-.textBox {
-    
-}
-
-.carouselContainer {
-    
-}

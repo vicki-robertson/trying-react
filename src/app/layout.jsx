@@ -30,11 +30,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={`${lato.variable} ${montserrat.variable}`}>
-        <div className='content'>
           <Header/>
           {children}
           <Footer/>
-        </div> 
       </body>
     </html>
   )
