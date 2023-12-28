@@ -1,5 +1,10 @@
 .links a {
     padding: 0 3rem 0 0;
+    text-decoration: none;
+    font-family: var(--font-montserrat);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--tertiary-color);
     }
 
 

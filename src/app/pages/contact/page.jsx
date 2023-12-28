@@ -6,17 +6,18 @@ import SymbolsContact from '../../components/Symbols/SymbolsContact/SymbolsConta
 export default function Contact() {
   return (
     <div className={styles.contactContainer}>
-      <main className={styles.main}>
-        <h2>Envia tu mensaje al doctor</h2>
+      <aside className={styles.leftSection}>
+        <h2>Envia tu mensaje al Doctor</h2>
         <div className={styles.symbols}>
           <SymbolsContact/>
         </div>
-      </main>
-      <form className={styles.formContainer}>
-        <h3>Form goes here</h3>
-        <Button text='Send'></Button>
-      </form>
-      
+      </aside>
+      <section className={styles.rightSection} >
+        <form className={styles.formContainer}>
+          <h3>Form goes here</h3>
+          <Button text='Send'></Button>
+        </form>
+      </section>
     </div>
   )
 }

@@ -10,7 +10,6 @@ const CarouselComponent = () => {
       <Carousel
         showArrows={true}
         showThumbs={false}
-        dynamicHeight={true}
         className={styles.carouselBox}
         infiniteLoop={true}
         autoPlay={true}
@@ -24,12 +23,13 @@ const CarouselComponent = () => {
             width={1726}
             height={833}
             objectFit="cover"
+            className={styles.imageCarousel}
           />
 
           <div className={styles.overlayContent}>
             <h1 className={styles.legend}>The Giggle</h1>
             <div className={styles.buttonCarousel}>
-              <Button text='Ver Ahora' />
+              <Button href="https://www.doctorwho.tv/">Ver ahora</Button>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ const CarouselComponent = () => {
           <div className={styles.overlayContent}>
             <h1 className={styles.legend}>Allons-y</h1>
             <div className={styles.buttonCarousel}>
-              <Button text='Ver Ahora' />
+              <Button href="https://www.doctorwho.tv/">Ver ahora</Button>
             </div>
           </div>
         </div>

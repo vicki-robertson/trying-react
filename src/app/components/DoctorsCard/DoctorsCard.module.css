@@ -6,7 +6,6 @@
 .doctorsCard {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 815px;
     grid-gap: 7rem;
     justify-content: center;
     margin: 0 auto;
@@ -15,7 +14,15 @@
 
 
 .imageBox {
+    width: 314px;
+    height: 460px;
+    overflow: hidden;
+}
 
+.doctorImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .textBox {
@@ -35,5 +42,5 @@
 }
 
 .buttonDoctors {
-    
+  
 }

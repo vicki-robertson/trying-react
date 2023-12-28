@@ -3,8 +3,8 @@ import styles from './page.module.css'
 
 export default function Doctors() {
   return (
-    <section className={styles.doctorsGrid}>
-        <div><DoctorsCard/></div>
-    </section>
+      <section className={styles.doctorsGrid}>
+          <div><DoctorsCard/></div>
+      </section>
   )
 }
