@@ -1,28 +1,35 @@
 .contactContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    display: flex;
+    
 }
 
-.main {
-    display: grid;
+.leftSection {
+    display: flex;
     background-color: var(--background-color);
-    height: 100vh;
-}
-
-.contactContainer .main {
-    display: grid;
     justify-content: left;
+    width: 65%;
+    text-align: center;
+    /* height: 100vh; */
 }
 
-.contactContainer .formContainer {
-    display: grid;
-    justify-content: right;
-    text-align: center;
+.leftSection h2 {
+    padding-top: 4rem;
+}
+
+.formContainer {
+    padding-top: 4rem;
+}
+
+
+.rightSection {
+    display: flex;
+    justify-content: left;
+    width: 35%;
+    /* text-align: center; */
 }
 
 .symbols {
-
+    
 }
 
 .formContainer {

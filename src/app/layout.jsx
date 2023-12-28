@@ -1,5 +1,5 @@
 // import 'bootstrap/dist/css/bootstrap.css';
-import './globals.css'
+import styles from './globals.css'
 import { Lato, Montserrat } from 'next/font/google'
 
 // components
@@ -29,10 +29,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${lato.variable} ${montserrat.variable}`}>
-          <Header/>
-          {children}
-          <Footer/>
+      <body className={`{styles.container} ${lato.variable} ${montserrat.variable}`}>
+          <Header className={styles.header} />
+          <main className={styles.main}>
+            {children}
+          </main>
+          <Footer className={styles.footer} />
       </body>
     </html>
   )

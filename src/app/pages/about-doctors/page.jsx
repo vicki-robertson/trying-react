@@ -1,11 +1,12 @@
 import styles from './page.module.css'
 
+
 export default function AboutDoctors() {
   return (
-    <main>
-        <div>
-          <h3>about doctors</h3>
-        </div>
-    </main>
+      <section>
+          <div>
+            <h3>about doctors</h3>
+          </div>
+      </section>
   )
 }

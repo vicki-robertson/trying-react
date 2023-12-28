@@ -1,8 +1,15 @@
 import styles from './button.module.css'
 
-export default function Button({text}) {
-    
+const Button = ({ href, children }) => {
     return (
-        <button className={styles.button}>{text}</button>
-    )
-}
+      <button className={styles.button}>
+        <a className={styles.buttonText}
+            href={href} target="_blank">
+            {children}
+        </a>
+      </button>
+    );
+  };
+
+export default Button
+
