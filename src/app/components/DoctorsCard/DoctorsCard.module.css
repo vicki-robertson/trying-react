@@ -5,7 +5,7 @@
 }
 .doctorsCard {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(300px, 350px));
     grid-gap: 7rem;
     justify-content: center;
     margin: 0 auto;
@@ -27,6 +27,10 @@
 
 .textBox {
     padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 16rem;
+    justify-content: space-between;
 }
 
 .doctorName {
@@ -37,10 +41,13 @@
     padding-bottom: 2rem;
 }
 
-.info {
-    padding-bottom: 3rem;
+.screenTime {
+    
 }
 
 .buttonDoctors {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
   
 }

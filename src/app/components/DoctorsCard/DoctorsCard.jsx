@@ -10,10 +10,10 @@ export default function DoctorsCard() {
   return (
     <>
       <h2 className={styles.title}>Doctors</h2>
-      <div className={styles.doctorsCard}>
+      <article className={styles.doctorsCard}>
         {doctorsList.doctors.map((doctor) => (
           <div key={doctor.id}>
-            <div className={styles.imageBox}>
+            <figure className={styles.imageBox}>
               <Image
                 src={doctor.image}
                 width={314}
@@ -21,18 +21,20 @@ export default function DoctorsCard() {
                 alt='doctor'
                 className={styles.doctorImage}
                 />
-            </div>
-            <div className={styles.textBox}>
-              <h3 className={styles.doctorName}>{doctor.doctor}</h3>
-              <h4 className={styles.actorName}>{doctor.actor}</h4>
-              <p className={styles.info}>{doctor.screen_time}</p>
+            </figure>
+            <section className={styles.infoBox}>
+              <div className={styles.textBox}>
+                <h3 className={styles.doctorName}>{doctor.doctor}</h3>
+                <h4 className={styles.actorName}>{doctor.actor}</h4>
+                <p className={styles.screenTime}>{doctor.screen_time}</p>
+              </div>
               <div className={styles.buttonDoctors}>
                 <SmallButton href="https://www.doctorwho.tv/">Ver más</SmallButton>
               </div>
-            </div>
+            </section>
           </div>
         ))}
-      </div>
+      </article>
     </>
   );
 }
