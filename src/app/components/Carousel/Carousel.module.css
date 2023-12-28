@@ -1,14 +1,15 @@
 .carouselContainer {
+    display: flex;
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 833px;
+    max-height: 800px;
     overflow: hidden;
     transition: transform 0.5s ease;
   }
   
   .carouselBox {
-    height: 900px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
   }

@@ -8,7 +8,7 @@ const CarouselComponent = () => {
   return (
     <div className={styles.carouselContainer}>
       <Carousel
-        showArrows={true}
+        showArrows={false}
         showThumbs={false}
         className={styles.carouselBox}
         infiniteLoop={true}

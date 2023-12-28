@@ -5,7 +5,7 @@ export default function SymbolsContact() {
     <>
         <div className="blueSymbol">
             <Image
-            src="/symbols/persistencia-2.png"
+            src="/symbols/blueSymbol.png"
             alt='Persistence symbol'
             height={280}
             width={280}
@@ -13,7 +13,7 @@ export default function SymbolsContact() {
         </div>
         <div className="yellowSymbol">
             <Image
-                src="/symbols/resistencia.png"
+                src="/symbols/yellowSymbol.png"
                 alt='Resistence symbol'
                 height={445}
                 width={445}
@@ -21,7 +21,7 @@ export default function SymbolsContact() {
         </div>
         <div className="whiteSymbol">
             <Image
-                src="/symbols/vencer.png"
+                src="/symbols/whiteSymbol.png"
                 alt='Avenge symbol'
                 height={330}
                 width={330}
